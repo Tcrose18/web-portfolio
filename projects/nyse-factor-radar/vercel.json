@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "installCommand": "echo \"No install needed for static web deploy\"",
+  "buildCommand": "echo \"No build step needed\"",
+  "functions": {
+    "api/quotes.js": {
+      "maxDuration": 60
+    }
+  },
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    }
+  ]
+}

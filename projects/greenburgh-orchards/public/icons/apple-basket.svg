@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 2 64 64" fill="none" stroke="#171713" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+  <title>Apple basket</title>
+  <path d="M12 31C12 17 20 7 32 7S52 17 52 31"/>
+  <path d="M17 28c-3-2-5-1-6 2-1 4 2 9 6 10 4 1 8-3 8-7 0-4-4-7-8-5Zm15-2c-4-2-8 0-8 5 0 5 4 10 8 10s8-5 8-10c0-5-4-7-8-5Zm15 2c-4-2-8 1-8 5 0 4 4 8 8 7 4-1 7-6 6-10-1-3-3-4-6-2Z" fill="#fff"/>
+  <path d="M17 28c1-3 1-5-1-7m1 6c3 0 5-2 5-5-3 0-5 2-5 5Zm15-1c0-3-1-5-3-7m3 6c3 0 5-2 5-5-3 0-5 2-5 5Zm15 3c0-3 0-5 2-7m-2 5c-3 0-5-2-5-5 3 0 5 2 5 5Z"/>
+  <path d="m7 34 5 20c1 4 10 7 20 7s19-3 20-7l5-20c-15 7-35 7-50 0Z" fill="#fff"/>
+  <path d="M9 41c14 6 32 6 46 0M11 48c12 6 30 6 42 0M13 55c11 5 27 5 38 0M20 39l2 19m22-19-2 19"/>
+</svg>

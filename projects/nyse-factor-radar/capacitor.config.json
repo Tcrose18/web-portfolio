@@ -1,0 +1,9 @@
+{
+  "appId": "com.local.nysefactorradar",
+  "appName": "NYSE Factor Radar",
+  "webDir": "mobile-www",
+  "bundledWebRuntime": false,
+  "server": {
+    "cleartext": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "nyse-factor-radar",
+  "version": "1.0.0",
+  "description": "NYSE quantitative factor model desktop app.",
+  "main": "electron/main.cjs",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "app": "electron .",
+    "build:mac": "ELECTRON_CACHE=.electron-cache ELECTRON_BUILDER_CACHE=.electron-builder-cache electron-builder --mac",
+    "build": "ELECTRON_CACHE=.electron-cache ELECTRON_BUILDER_CACHE=.electron-builder-cache electron-builder",
+    "api:start": "node api/dev-server.cjs",
+    "mobile:prepare": "node scripts/prepare-mobile.cjs",
+    "mobile:sync": "npm run mobile:prepare && cap sync",
+    "mobile:ios": "npm run mobile:prepare && cap open ios"
+  },
+  "build": {
+    "appId": "com.local.nyse-factor-radar",
+    "productName": "NYSE Factor Radar",
+    "files": [
+      "api/**/*",
+      "electron/**/*",
+      "index.html",
+      "styles.css",
+      "config.js",
+      "app.bundle.js",
+      "real-data.js"
+    ],
+    "electronDist": "node_modules/electron/dist",
+    "mac": {
+      "category": "public.app-category.finance",
+      "target": [
+        "dir"
+      ]
+    }
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.4.1",
+    "@capacitor/core": "^8.4.1",
+    "@capacitor/ios": "^8.4.1",
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3"
+  }
+}
