@@ -1,5 +1,7 @@
 # Web portfolio
 
+**[Open the portfolio website](https://tcrose18.github.io/web-portfolio/)**
+
 Three web projects exploring clearer decisions, thoughtful interfaces, and practical digital experiences.
 
 | Project | What it demonstrates | Explore |
